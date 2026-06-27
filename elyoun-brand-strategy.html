@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elyoun — Brand Strategy</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+:root{
+  --bg:#0A0A0C;
+  --bg-2:#101015;
+  --surface:#15151B;
+  --surface-2:#1B1B22;
+  --border:rgba(200,169,106,0.18);
+  --border-soft:rgba(255,255,255,0.07);
+  --text:#ECE8DF;
+  --muted:#9C988C;
+  --muted-2:#736F66;
+  --gold:#C8A96A;
+  --gold-2:#E3C98C;
+  --slate:#6B7A8F;
+  --grad-gold:linear-gradient(135deg,#E3C98C 0%,#C8A96A 55%,#A8884B 100%);
+  --font-display:'Playfair Display',serif;
+  --font-head:'Space Grotesk',sans-serif;
+  --font-body:'Inter',sans-serif;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+
+.slide-deck{position:relative;width:100vw;height:100vh;overflow:hidden}
+@media(min-width:769px){
+  .slide-deck{max-width:calc(100vh * 16 / 9);max-height:calc(100vw * 9 / 16);margin:auto;position:absolute;inset:0}
+}
+
+.slide{
+  position:absolute;inset:0;width:100%;height:100%;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(36px,5.5vw,84px);
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .5s ease,transform .5s ease;
+  background:
+    radial-gradient(1200px 600px at 78% -10%, rgba(200,169,106,0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(107,122,143,0.10), transparent 55%),
+    var(--bg);
+  overflow:hidden;
+}
+.slide.active{opacity:1;visibility:visible;transform:translateY(0)}
+.slide-content{width:100%;max-width:1180px;margin:0 auto;max-height:100%;overflow:hidden}
+
+/* Eyebrow / kicker */
+.kicker{
+  font-family:var(--font-head);
+  font-size:clamp(10px,1.05vw,13px);
+  letter-spacing:.34em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;
+  display:flex;align-items:center;gap:14px;margin-bottom:22px;
+}
+.kicker::before{content:"";width:34px;height:1px;background:var(--grad-gold)}
+
+h1,h2,h3{font-family:var(--font-head);line-height:1.1;font-weight:600}
+.display{font-family:var(--font-display);font-weight:600;line-height:1.04;letter-spacing:-.01em}
+.gold-text{background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+p{color:var(--muted);font-weight:300;line-height:1.65}
+.lead{font-size:clamp(15px,1.5vw,19px);color:#C9C5BB;font-weight:300;line-height:1.7}
+strong{color:var(--text);font-weight:500}
+
+/* ---------- Title slide ---------- */
+.title-wrap{display:flex;flex-direction:column;justify-content:center;height:100%}
+.brand-mark{
+  font-family:var(--font-display);font-weight:600;
+  font-size:clamp(64px,13vw,180px);letter-spacing:.02em;line-height:.95;
+}
+.brand-mark .dot{color:var(--gold)}
+.title-tag{
+  font-family:var(--font-head);font-weight:500;
+  font-size:clamp(15px,2.1vw,26px);color:var(--text);
+  margin-top:18px;letter-spacing:.01em;
+}
+.title-foot{
+  margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;
+  border-top:1px solid var(--border-soft);padding-top:20px;
+  font-family:var(--font-head);font-size:clamp(11px,1.1vw,14px);
+  color:var(--muted);letter-spacing:.12em;text-transform:uppercase;
+}
+
+/* ---------- Section title ---------- */
+.section-title{font-size:clamp(30px,4.4vw,58px);margin-bottom:8px}
+.section-sub{font-size:clamp(14px,1.5vw,18px);color:var(--muted);max-width:780px;margin-top:14px;font-weight:300;line-height:1.6}
+
+/* ---------- Pull quote ---------- */
+.pull{
+  font-family:var(--font-display);font-style:italic;
+  font-size:clamp(26px,4.6vw,60px);line-height:1.12;letter-spacing:-.01em;
+  margin:0 0 6px;
+}
+
+/* ---------- Grids ---------- */
+.grid{display:grid;gap:clamp(14px,1.6vw,22px)}
+.cols-2{grid-template-columns:1fr 1fr}
+.cols-3{grid-template-columns:repeat(3,1fr)}
+.cols-4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:860px){.cols-3,.cols-4{grid-template-columns:repeat(2,1fr)}.cols-2{grid-template-columns:1fr}}
+
+.card{
+  background:linear-gradient(160deg,var(--surface),var(--bg-2));
+  border:1px solid var(--border-soft);border-radius:14px;
+  padding:clamp(18px,2vw,28px);position:relative;overflow:hidden;
+}
+.card::before{content:"";position:absolute;left:0;top:0;height:100%;width:3px;background:var(--grad-gold);opacity:.0;transition:opacity .3s}
+.card.accent::before{opacity:1}
+.card .num{font-family:var(--font-head);font-size:13px;color:var(--gold);letter-spacing:.2em;font-weight:600}
+.card h3{font-size:clamp(16px,1.7vw,21px);margin:10px 0 8px;color:var(--text)}
+.card p{font-size:clamp(12.5px,1.25vw,15px)}
+
+/* pillars row */
+.pillars{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.pill{
+  font-family:var(--font-head);font-size:clamp(11px,1.1vw,13.5px);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold-2);
+  border:1px solid var(--border);border-radius:999px;
+  padding:8px 16px;background:rgba(200,169,106,0.05);
+}
+
+/* two-col split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px);align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr;gap:24px}}
+.block-label{font-family:var(--font-head);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;font-weight:600}
+.block-title{font-family:var(--font-display);font-size:clamp(22px,3vw,36px);line-height:1.15;margin-bottom:14px}
+
+/* persona / list cards */
+.persona h3{font-family:var(--font-head)}
+.persona .role{color:var(--gold);font-size:12.5px;font-family:var(--font-head);letter-spacing:.04em;margin-bottom:10px}
+.persona .quote{font-family:var(--font-display);font-style:italic;color:#CFC9BC;font-size:clamp(13px,1.4vw,16px);line-height:1.4;margin-bottom:10px}
+.persona p{font-size:clamp(12px,1.2vw,14px)}
+.persona .solve{color:var(--gold-2);font-weight:400}
+
+/* comparison table */
+.ctable{width:100%;border-collapse:collapse;font-size:clamp(12px,1.25vw,15px)}
+.ctable th,.ctable td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--border-soft)}
+.ctable th{font-family:var(--font-head);color:var(--gold);letter-spacing:.08em;text-transform:uppercase;font-size:11.5px;font-weight:600}
+.ctable td{color:var(--muted)}
+.ctable tr.us td{background:rgba(200,169,106,0.07);color:var(--text)}
+.ctable tr.us td:first-child{color:var(--gold-2);font-weight:600;font-family:var(--font-head)}
+.ctable td:first-child{color:var(--text);font-weight:500;font-family:var(--font-head)}
+
+/* chart */
+.chart-wrap{width:100%;height:clamp(280px,52vh,460px);position:relative}
+
+/* voice columns */
+.voice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:860px){.voice-grid{grid-template-columns:1fr 1fr}}
+.vq{border:1px solid var(--border-soft);border-radius:12px;padding:16px 18px;background:var(--surface)}
+.vq h3{font-size:15px;color:var(--text);margin-bottom:6px}
+.vq p{font-size:12.5px}
+
+/* taglines */
+.tag-list{display:flex;flex-direction:column;gap:12px}
+.tag-row{display:flex;align-items:baseline;gap:18px;border-bottom:1px solid var(--border-soft);padding-bottom:12px}
+.tag-row .t{font-family:var(--font-display);font-size:clamp(18px,2.3vw,30px);color:var(--text)}
+.tag-row.rec .t{color:var(--gold-2)}
+.tag-row .r{color:var(--muted);font-size:clamp(12px,1.2vw,14.5px);font-weight:300}
+.badge{font-family:var(--font-head);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--bg);background:var(--grad-gold);padding:4px 9px;border-radius:5px;font-weight:700;white-space:nowrap}
+
+/* closing */
+.close-wrap{display:flex;flex-direction:column;justify-content:center;height:100%}
+
+/* metrics big */
+.seg{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.seg span{font-family:var(--font-head);font-size:clamp(12px,1.3vw,15px);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:9px 15px;background:rgba(200,169,106,0.04)}
+
+/* animations */
+.animate-stagger>*{opacity:0;animation:fadeUp .55s ease-out forwards}
+.animate-stagger>*:nth-child(1){animation-delay:.08s}
+.animate-stagger>*:nth-child(2){animation-delay:.16s}
+.animate-stagger>*:nth-child(3){animation-delay:.24s}
+.animate-stagger>*:nth-child(4){animation-delay:.32s}
+.animate-stagger>*:nth-child(5){animation-delay:.40s}
+.slide.active .fade-up{animation:fadeUp .6s ease-out both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+
+/* nav */
+.progress-bar{position:fixed;top:0;left:0;height:2px;background:var(--grad-gold);width:0;transition:width .4s;z-index:1000}
+.nav-controls{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:18px;z-index:1000}
+.nav-btn{background:rgba(255,255,255,.06);border:1px solid var(--border-soft);color:var(--text);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:16px;transition:.25s;display:flex;align-items:center;justify-content:center}
+.nav-btn:hover{background:rgba(200,169,106,.16);border-color:var(--border)}
+.slide-counter{color:var(--muted);font-size:13px;font-family:var(--font-head);letter-spacing:.1em}
+.slide-counter b{color:var(--gold-2)}
+
+@media(max-width:768px){
+  .cols-3,.cols-4,.voice-grid{grid-template-columns:1fr 1fr}
+  .split{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<div class="slide-deck">
+
+  <!-- 1 — TITLE -->
+  <section class="slide active">
+    <div class="slide-content title-wrap">
+      <div class="kicker fade-up">Brand Strategy · 2026</div>
+      <div class="brand-mark fade-up">Elyoun<span class="dot">.</span></div>
+      <div class="title-tag fade-up">Engineered to the highest standard.</div>
+      <div class="title-foot">
+        <span>Premium AI &amp; Software Engineering</span>
+        <span>Consulting · SaaS · Apps · Games · XR</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 — WHAT IS ELYOUN -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">01 — What is Elyoun</div>
+      <p class="pull gold-text fade-up">The highest standard, engineered.</p>
+      <div class="split" style="margin-top:26px">
+        <p class="lead">Elyoun exists for organizations that hit the same wall: the gap between what they can imagine and what they can actually <strong>build</strong>. Agencies bill hours. Consultancies write decks. Outsourcers ship code that breaks at the edges that matter most — security, scale, mission-criticality.</p>
+        <p class="lead">Elyoun does two rare things under one roof. It <strong>consults</strong> — embedding senior AI and software engineers into the hardest problems — and it <strong>ships its own products</strong>: SaaS, apps, websites, games, and XR simulation. Because Elyoun builds and operates its own products, it brings product-builder discipline and full ownership to client work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 — VISION & MISSION -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">02 — Vision &amp; Mission</div>
+      <div class="split">
+        <div class="fade-up">
+          <div class="block-label">Vision</div>
+          <p class="block-title">The partner called when the work is too important to get wrong.</p>
+          <p class="lead">To become the engineering partner the world's most ambitious organizations rely on — built on elite craft, applied AI, and a refusal to ship anything less than production-grade.</p>
+          <div class="pillars"><span class="pill">Elite</span><span class="pill">Applied</span><span class="pill">Immersive</span><span class="pill">Trusted</span></div>
+        </div>
+        <div class="fade-up">
+          <div class="block-label">Mission</div>
+          <p class="block-title">Build what clients can't build alone — and stand behind it.</p>
+          <p class="lead">Engineer the AI-powered software and immersive systems clients can't build in-house — from a founder's first SaaS to a defense-grade simulation — and own every system in production.</p>
+          <div class="pillars"><span class="pill">Build</span><span class="pill">Own</span><span class="pill">Secure</span><span class="pill">Elevate</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 — VALUES -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">03 — Brand Values</div>
+      <h2 class="section-title">What Elyoun refuses to compromise.</h2>
+      <div class="grid cols-3 animate-stagger" style="margin-top:26px">
+        <div class="card accent"><div class="num">01</div><h3>Engineering Excellence</h3><p>Production-grade or it doesn't ship. The difference between a demo and a system is everything Elyoun sells.</p></div>
+        <div class="card accent"><div class="num">02</div><h3>Partnership Over Vendorship</h3><p>Embed, own outcomes, and tell the truth — including when an idea needs to change.</p></div>
+        <div class="card accent"><div class="num">03</div><h3>Frontier Ambition</h3><p>Work at the edge of AI, XR, and simulation — new capability as a craft to master, not a buzzword.</p></div>
+        <div class="card accent"><div class="num">04</div><h3>Trust &amp; Security by Default</h3><p>Built to enterprise and defense standards from the first commit. Never an afterthought.</p></div>
+        <div class="card accent"><div class="num">05</div><h3>Craft</h3><p>Premium quality in the parts no one sees as much as the parts they do. The detail is the brand.</p></div>
+        <div class="card" style="display:flex;align-items:center;justify-content:center"><p class="display gold-text" style="font-size:clamp(20px,2.4vw,30px);font-style:italic">Excellence · Ownership · Frontier · Trust · Craft</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 — THE MODEL / DIFFERENTIATOR -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">04 — The Difference</div>
+      <p class="pull fade-up">A consultancy that ships its own products —<br><span class="gold-text">so it builds yours like an owner.</span></p>
+      <div class="grid cols-3 animate-stagger" style="margin-top:34px">
+        <div class="card"><h3 class="gold-text">Build like owners</h3><p>Elyoun ships and runs its own SaaS and apps in production — so it brings product discipline and accountability, not billable hours.</p></div>
+        <div class="card"><h3 class="gold-text">Production-grade, or it doesn't ship</h3><p>Security, scale, reliability — the gap between a demo and a system is exactly what Elyoun sells. Pilots built to pass review, not die in it.</p></div>
+        <div class="card"><h3 class="gold-text">One partner, the full range</h3><p>SaaS · apps · web · games · XR · simulation under one roof, held to a single standard. No stitching together half-capable vendors.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 — POSITIONING MAP -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">05 — Positioning</div>
+      <div class="split" style="grid-template-columns:0.92fr 1.08fr;align-items:center">
+        <div class="fade-up">
+          <p class="block-title">The empty center.</p>
+          <p class="lead">The market splits in two: trusted-but-heavy platform &amp; transformation players, and specialist studios with craft but little engineering rigor or security maturity. Buyers whose problems span both are forced to stitch vendors together.</p>
+          <p class="lead" style="margin-top:14px"><strong>Elyoun occupies the gap</strong> — a single premium partner with engineering rigor <em>and</em> immersive/AI craft, that builds, secures, and owns the whole thing.</p>
+        </div>
+        <div class="fade-up">
+          <div class="chart-wrap"><canvas id="posMap"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 — TARGET AUDIENCE -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">06 — Target Audience</div>
+      <h2 class="section-title" style="font-size:clamp(24px,3.4vw,42px)">Ambitious organizations with problems too important to outsource cheaply.</h2>
+      <div class="seg fade-up" style="margin:18px 0 24px">
+        <span>Founders</span><span>Enterprise</span><span>Theme Parks</span><span>Game Studios</span><span>Defense / Gov</span>
+      </div>
+      <div class="grid cols-3 animate-stagger">
+        <div class="card persona"><h3>Maya, 34</h3><div class="role">Founder &amp; CEO · seed-stage AI SaaS</div><p class="quote">"I don't need a dev shop. I need a team that's actually built and run a product like the one I'm betting the company on."</p><p class="solve">→ Builders, not billers.</p></div>
+        <div class="card persona"><h3>David, 47</h3><div class="role">Chief Innovation Officer · enterprise</div><p class="quote">"I've seen a hundred AI pilots. I need one that goes to production and passes security review."</p><p class="solve">→ Product-grade AI, security by default.</p></div>
+        <div class="card persona"><h3>Colonel R., 52</h3><div class="role">Program Director · defense simulation</div><p class="quote">"I'm not buying a tech demo. I'm buying a system my people will train on, with a partner I can trust."</p><p class="solve">→ Frontier craft, mission-critical standards.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 — COMPETITOR LANDSCAPE -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">07 — Competitive Landscape</div>
+      <h2 class="section-title" style="font-size:clamp(24px,3.2vw,40px)">Each rival owns half the answer.</h2>
+      <table class="ctable fade-up" style="margin-top:18px">
+        <thead><tr><th>Player</th><th>Strength</th><th>Gap</th><th>How Elyoun differs</th></tr></thead>
+        <tbody>
+          <tr><td>Palantir</td><td>Mission-critical trust, powerful platforms</td><td>Platform-bound; thin on bespoke / immersive build</td><td>Full-stack build partner, not one platform you adopt</td></tr>
+          <tr><td>Thoughtworks</td><td>Engineering craft, enterprise trust</td><td>Consulting-only; no owned products; light on XR</td><td>Ships &amp; operates its own products; reaches into XR/defense</td></tr>
+          <tr><td>Accenture / Slalom</td><td>Reach, breadth, relationships</td><td>Generalist; variable seniority at scale</td><td>Senior, selective, craft-first — depth over headcount</td></tr>
+          <tr><td>Immersive / XR studios</td><td>Experiential craft, storytelling</td><td>Light AI/eng rigor &amp; security</td><td>Brings software/AI &amp; security rigor to immersive work</td></tr>
+          <tr class="us"><td>Elyoun</td><td>Craft + rigor + ownership, full range</td><td>—</td><td>The single premium partner that spans all of it</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 9 — PERSONALITY & VOICE -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">08 — Personality &amp; Voice</div>
+      <p class="pull fade-up">The expert who doesn't<br>need to <span class="gold-text">impress you.</span></p>
+      <div class="seg fade-up" style="margin:18px 0 22px">
+        <span>Serious</span><span>Formal</span><span>Premium</span><span>Innovative</span><span>Bold</span>
+      </div>
+      <div class="voice-grid animate-stagger">
+        <div class="vq"><h3 class="gold-text">Precise</h3><p>Says exactly what it means and quantifies where it can. Vagueness is a tell.</p></div>
+        <div class="vq"><h3 class="gold-text">Confident, not loud</h3><p>Authority from substance, not volume. States; doesn't sell hard.</p></div>
+        <div class="vq"><h3 class="gold-text">Hype-free</h3><p>No buzzword inflation. If it can't be backed in production, it isn't said.</p></div>
+        <div class="vq"><h3 class="gold-text">Outcome-oriented</h3><p>Centers what the client gets — shipped, secure, running.</p></div>
+        <div class="vq"><h3 class="gold-text">Trustworthy</h3><p>Plain about trade-offs and timelines. Honesty is the premium signal.</p></div>
+        <div class="vq"><h3 class="gold-text">Elevated</h3><p>Every detail polished — the writing is a sample of the craft.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 — MESSAGING & TAGLINES -->
+  <section class="slide">
+    <div class="slide-content">
+      <div class="kicker">09 — Messaging &amp; Taglines</div>
+      <div class="split" style="grid-template-columns:0.85fr 1.15fr;align-items:start">
+        <div class="fade-up">
+          <div class="block-label">Core Message</div>
+          <p class="block-title" style="font-size:clamp(19px,2.3vw,27px)">Turn the hardest ideas into production-grade AI &amp; immersive systems — by building like owners.</p>
+          <p class="lead">One universal anchor; supporting messages flex per segment, every claim backed by proof.</p>
+        </div>
+        <div class="fade-up">
+          <div class="block-label">Tagline Directions</div>
+          <div class="tag-list">
+            <div class="tag-row rec"><span class="t">Engineered to the highest standard.</span><span class="badge">Lead</span></div>
+            <div class="tag-row"><span class="t">Built like owners.</span><span class="r">Campaign line</span></div>
+            <div class="tag-row"><span class="t">From idea to production. Secured.</span><span class="r">Functional</span></div>
+            <div class="tag-row"><span class="t">Elite engineering. Applied.</span><span class="r">Compact</span></div>
+            <div class="tag-row"><span class="t">Work too important to get wrong.</span><span class="r">Emotional</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 — CLOSING -->
+  <section class="slide">
+    <div class="slide-content close-wrap">
+      <div class="kicker fade-up">10 — How Elyoun Stands Out</div>
+      <p class="display fade-up" style="font-size:clamp(28px,5vw,68px)">Built for the <span class="gold-text">fusion</span><br>others can only<br>half-deliver.</p>
+      <p class="lead fade-up" style="max-width:760px;margin-top:22px">AI inside immersive. Games-quality realism inside defense training. Consumer polish inside mission-critical systems. The vendors built for the old, separate worlds each do half — Elyoun is built for the fusion, held to one standard: production-grade, secure, premium.</p>
+      <div class="title-foot fade-up" style="margin-top:48px">
+        <span class="gold-text" style="font-family:var(--font-display);font-style:italic;font-size:clamp(16px,2vw,24px);text-transform:none;letter-spacing:0">Engineered to the highest standard.</span>
+        <span>Elyoun</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div class="nav-controls">
+  <button class="nav-btn" onclick="prevSlide()" aria-label="Previous">←</button>
+  <span class="slide-counter"><b id="current">1</b> / <span id="total">11</span></span>
+  <button class="nav-btn" onclick="nextSlide()" aria-label="Next">→</button>
+</div>
+
+<script>
+let current=1;
+const slides=document.querySelectorAll('.slide');
+const total=slides.length;
+document.getElementById('total').textContent=total;
+let chartDone=false;
+
+function showSlide(n){
+  if(n<1)n=1; if(n>total)n=total; current=n;
+  slides.forEach((s,i)=>s.classList.toggle('active',i===n-1));
+  document.getElementById('current').textContent=n;
+  document.getElementById('progressBar').style.width=(n/total*100)+'%';
+  if(n===6&&!chartDone){chartDone=true;setTimeout(drawMap,120);}
+}
+function nextSlide(){showSlide(current+1)}
+function prevSlide(){showSlide(current-1)}
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();nextSlide()}
+  if(e.key==='ArrowLeft'){e.preventDefault();prevSlide()}
+});
+document.addEventListener('click',e=>{if(!e.target.closest('.nav-controls'))nextSlide()});
+
+// ---- Positioning map (scatter) ----
+const labelPlugin={
+  id:'labelPlugin',
+  afterDatasetsDraw(chart){
+    const{ctx}=chart;
+    chart.data.datasets.forEach((ds,di)=>{
+      const meta=chart.getDatasetMeta(di);
+      meta.data.forEach((pt,i)=>{
+        const d=ds.data[i];
+        ctx.save();
+        ctx.font='600 12px "Space Grotesk", sans-serif';
+        ctx.fillStyle=d.us?'#E3C98C':'#9C988C';
+        ctx.textAlign=d.align||'left';
+        ctx.fillText(d.name, pt.x+(d.align==='right'?-10:10), pt.y+4);
+        ctx.restore();
+      });
+    });
+  }
+};
+
+function drawMap(){
+  const ctx=document.getElementById('posMap');
+  if(!ctx)return;
+  new Chart(ctx,{
+    type:'scatter',
+    data:{datasets:[
+      {label:'Elyoun',data:[{x:84,y:90,name:'Elyoun',us:true,align:'right'}],
+        backgroundColor:'#E3C98C',pointRadius:11,pointHoverRadius:13,
+        pointBorderColor:'rgba(227,201,140,0.35)',pointBorderWidth:8},
+      {label:'Others',data:[
+        {x:64,y:72,name:'Thoughtworks'},
+        {x:72,y:84,name:'Palantir',align:'right'},
+        {x:26,y:66,name:'Accenture / Slalom'},
+        {x:74,y:34,name:'XR / immersive studios',align:'right'},
+        {x:66,y:24,name:'Game studios'}
+      ],backgroundColor:'#6B7A8F',pointRadius:7,pointHoverRadius:9}
+    ]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      layout:{padding:{right:30,top:10,bottom:6,left:6}},
+      plugins:{legend:{display:false},tooltip:{enabled:false}},
+      scales:{
+        x:{min:0,max:100,
+          title:{display:true,text:'Generalist breadth  →  Specialist craft',color:'#9C988C',font:{family:'Space Grotesk',size:12}},
+          grid:{color:'rgba(255,255,255,0.05)'},ticks:{display:false},
+          border:{color:'rgba(255,255,255,0.12)'}},
+        y:{min:0,max:100,
+          title:{display:true,text:'Execution vendor  →  Strategic partner',color:'#9C988C',font:{family:'Space Grotesk',size:12}},
+          grid:{color:'rgba(255,255,255,0.05)'},ticks:{display:false},
+          border:{color:'rgba(255,255,255,0.12)'}}
+      }
+    },
+    plugins:[labelPlugin]
+  });
+}
+
+showSlide(1);
+</script>
+</body>
+</html>
