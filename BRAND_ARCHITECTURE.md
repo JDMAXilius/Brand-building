@@ -1,153 +1,164 @@
-# Elyoun — Brand Architecture
+# Elyoun Group — Brand Architecture
 
-> The decision: **Elyoun is an endorsed house, not a single product brand and not five companies.**
-> One elite-engineering core; a small number of focused, customer-facing brands; activated in
-> stages as each earns proof. Grounded in `BRAND_STRATEGY.md`, `COMPETITIVE_LANDSCAPE.md`, and
-> brand-architecture research. Generated 2026-06-28.
+> The decision: **three independent companies (a house of brands)**, not one parent brand and
+> not five niches under one name. Each company is focused on one domain and one buyer, stands on
+> its own in market, and is connected only by a **silent holding company** (shared ownership,
+> talent, and capital — invisible to customers). Grounded in `BRAND_STRATEGY.md`,
+> `COMPETITIVE_LANDSCAPE.md`, and brand-architecture research. Generated 2026-06-28.
 
 ---
 
 ## 01 — THE DECISION
 
-Elyoun's defining struggle is that five very different niches — founders, enterprise, theme
-parks, game studios, defense/government — live under one flat brand. Those buyers have
-**contradictory** needs, budgets, and buying motions, so one customer-facing brand cannot be
-the obvious best choice for any of them. The answer is neither "keep five niches under one
-brand" (the current problem) nor "spin up five companies on day one" (premature and
-resource-splitting). It is an **endorsed house**:
+The five-niche problem is solved by **separation, not endorsement**. Three distinct companies,
+each the obvious best choice for one buyer:
 
-> **Elyoun** = the parent house — the shared elite-engineering + AI + real-time-3D core, the
-> senior talent, the capital, and *the standard*. Beneath it, **focused operating brands**,
-> each endorsed *"an Elyoun company"*, each the obvious best choice for one buyer.
+| Company | Domain | Buyers | Comparable |
+|---|---|---|---|
+| **Elyoun** *(Brand A)* | AI & software engineering; ships its own SaaS/products | Founders, enterprise | Thoughtworks / LeewayHertz |
+| **[Brand B — new name]** | Real-time 3D, XR, simulation, **+ game development incl. multiplayer** | Theme parks, game studios, publishers | Enludio / Side / Companion Group |
+| **[Brand C — new name]** *(future)* | Secure simulation, training, mission software | Defense / government | Improbable Defence / Anduril |
 
-This keeps the **compounding equity** of one reputation *and* the **focus + risk insulation**
-of separate brands.
+> **Elyoun keeps its name and becomes the focused AI & software engineering company** — exactly
+> how `brand-context.md` already defines it. Its existing brand system (voice, identity,
+> messaging) is preserved and simply *narrowed* to software/AI, with the immersive/games/defense
+> scope moving out to the sibling companies. _(If you'd rather Elyoun be the immersive company or
+> the silent holdco instead, it's a reassignment — say so and the rest holds.)_
 
----
-
-## 02 — WHY (THE EVIDENCE)
-
-1. **The exact model already fragmented in the wild.** Improbable spanned games + enterprise +
-   defense on one real-time-3D core, lost focus, and was *forced* to break apart — selling
-   Improbable Defence (Skyral) to a separate entity, selling its gaming unit (MPG, £76.5M),
-   and spinning the metaverse arm (MSquared) out separately, ultimately running a
-   "venture-builder" that spins out **one standalone entity per market**. Lesson: *share the
-   tech core, separate the brands by market.* Adopt this deliberately instead of being forced
-   into it later.
-2. **Defense must be ring-fenced.** Government contracting (FAR, clearances, government-unique
-   business practices) makes defense and commercial businesses mutually non-competitive —
-   "natural barriers." A founder's MVP practice and a cleared defense program cannot share one
-   P&L cleanly. Defense becomes its own entity, by necessity.
-3. **Brand-architecture theory names the fix.** The endorsed/hybrid model — a parent owning
-   focused sub-brands with their own identities — is purpose-built for a portfolio of distinct
-   audiences under shared ownership.
-
-> The cross-domain range that reads as *unfocused* in one brand becomes a genuine **moat** as a
-> house: a group with a shared elite-engineering core deploying focused brands per market. The
-> range lives internally (shared engine, shared senior talent), not as a confusing external claim.
+**The connective tissue is invisible:** a **silent holding company** owns all three, runs shared
+back-office, pools the senior engineering talent, and routes cross-referrals — but does **not**
+appear in any customer-facing brand. Customers meet three independent companies; the moat (one
+elite engineering core) lives behind the curtain.
 
 ---
 
-## 03 — THE STRUCTURE
+## 02 — WHY THIS WORKS (AND WHAT IT COSTS)
 
-```
-                          ELYOUN  (the house / the standard)
-                shared: senior talent · AI + engineering core · capital · craft standard
-        ┌───────────────────────────┬───────────────────────────────┐
-   Operating Brand A            Operating Brand B            (Future) Brand C
-   SOFTWARE & AI                IMMERSIVE / RT-3D            DEFENSE & GOV
-   AI + software eng,           XR, simulation,             secure sim, training,
-   ships own SaaS/products      games, attractions          mission software
-   Buyers: founders,            Buyers: theme parks,        Buyers: defense /
-   enterprise                   game studios                government
-   ~ Thoughtworks / LeewayHertz ~ Enludio / Side            ~ Improbable Defence / Anduril
-```
+**The cost (be clear-eyed):** three independent companies is the most resource-intensive
+architecture — three reputations built from zero, no shared-equity compounding, three
+go-to-markets to fund. For an early group, that is real.
 
-**Endorsement rule:** each operating brand carries *"an Elyoun company"* (or *"by Elyoun"*) as
-an endorsement lockup — present enough to compound trust, secondary enough to let each brand own
-its market. Elyoun's logo/dot device appears as the endorser; each brand has its own wordmark.
+**Why it's still the right call here:**
+1. **The audiences repel each other.** A game studio's brand is *helped* by not looking like a
+   defense contractor; a defense brand is *helped* by not looking like a consumer-games studio.
+   Endorsement would transfer the wrong associations both ways. Independence is a feature.
+2. **Defense must be ring-fenced regardless.** Government contracting (FAR, clearances,
+   government-unique practices) makes defense and commercial businesses mutually
+   non-competitive — defense is a separate entity by necessity, not preference.
+3. **Precedent.** Improbable spanned games + enterprise + defense on one real-time-3D core, lost
+   focus, and was *forced* to break apart — selling Improbable Defence separately, selling its
+   gaming unit, spinning the metaverse arm out, then running a venture-builder that creates **one
+   standalone entity per market.** You're adopting deliberately what it learned painfully.
+4. **Risk insulation.** A problem in one company never taints the others.
 
-**Why these cuts:** the deepest natural fault line is *technology domain × buyer type*. Software/AI
-(screens, data, SaaS, apps, AI integration) serves founders + enterprise. Immersive/real-time-3D
-(spatial, XR, sim, games, attractions) serves theme parks + game studios. Defense is a *customer
-vertical* that buys mostly immersive/sim + secure software and must be legally/operationally
-separated.
+**The mitigation for the cost:** the silent holding company. Share the expensive part (senior
+engineers, capital, recruiting, ops, IP/tech core) across all three; keep only the cheap-to-
+duplicate part (brand, site, GTM) independent. You get house-of-brands focus with holdco economics.
 
 ---
 
-## 04 — SEQUENCING (DON'T LIGHT IT ALL UP AT ONCE)
+## 03 — THE THREE COMPANIES
 
-Designing the house is free; funding three brands from a young balance sheet is not. Activate
-in stages, each gated on **proof**, never on ambition.
+### A) Elyoun — AI & Software Engineering
+- **Scope:** applied AI, custom software engineering, and **its own SaaS/products** (the
+  "consultancy that ships what it builds" model — now true and focused).
+- **Buyers:** founders/startups, enterprise.
+- **Lead proof:** the product(s) already in production.
+- **Status:** **active now** — this is the flagship and the first company to go to market.
+- **Assets:** keeps the existing `BRAND_STRATEGY` / `VOICE` / `MESSAGING` / `IDENTITY`,
+  re-scoped to software/AI only.
 
-- **Phase 1 — Now (lead brand only).** Stand up the ONE operating brand where Elyoun's
-  **product(s) in production** already live — that product is the proof, so that brand leads.
-  *Recommended lead: **Software & AI*** (where "a firm that ships its own products" is
-  demonstrable and the commercial barrier is lowest). _If the in-production product is actually
-  immersive/RT-3D, swap the lead to Brand B — a one-line change; the architecture is identical._
-  Elyoun sits behind it as endorser. The other domains remain *practices/divisions*, not yet
-  separate brands.
-- **Phase 2 — On proof.** When a second domain has its own flagship case study + product, it
-  graduates from a practice into its own endorsed brand with its own site and go-to-market.
-- **Phase 3 — Last, gated on credentials.** Defense spins out as a ring-fenced entity *only*
-  once clearances/certifications/contracts exist. Never claim defense capability before the
-  proof exists — that is the one move that destroys premium credibility fastest.
+### B) [New name] — Real-time 3D, Immersive & Games
+- **Scope:** real-time 3D, XR, simulation, location-based / theme-park experiences, **and game
+  development — including multiplayer** (co-development, gameplay/engine work, netcode &
+  multiplayer backend, live-service). Combines the Enludio (immersive), Side (game services),
+  and Companion Group (multiplayer/backend) territories under one focused studio brand.
+- **Buyers:** theme parks & attractions, game studios & publishers.
+- **Optional product line — digital plugins/tooling _(parked; recommended for Phase 2)_:**
+  productized engine plugins, SDKs, and dev tools (Unreal/Unity) sold as recurring products.
+  This is the "ships its own products" flywheel applied to the games/immersive space — a strong
+  owned-product line *once the services brand has traction.* Keep services-first; add plugins
+  when there's a real tool worth shipping, not before.
+- **Status:** **graduates to a full company on proof** (a flagship immersive/games project +
+  named buyer). Until then it can run as a practice incubated inside the holdco.
+- **Assets:** needs its own full brand system — likely *not* black+gold (a creative/games
+  audience wants a more expressive identity than the premium-restraint Elyoun system).
+
+### C) [New name] — Defense & Government *(future, gated)*
+- **Scope:** secure simulation, training systems, mission/secure software. Draws on Company B's
+  real-time-3D core but is a separate, ring-fenced entity.
+- **Buyers:** defense / government.
+- **Status:** **stand up last**, and *only* once clearances/certifications/contracts exist.
+  Never claim defense capability before the proof — that destroys premium credibility fastest.
+- **Assets:** its own sober, security-forward brand system (formal, mission-led, no games or
+  consumer associations).
+
+---
+
+## 04 — SEQUENCING
+
+Designing all three is free; funding all three at once is not. Activate on **proof**, not ambition.
+
+- **Phase 1 — now:** **Elyoun (A)** goes to market, led by its product-in-production.
+- **Phase 2 — on proof:** **Company B** graduates when it has a flagship immersive/games project
+  + a named buyer; consider the plugins product line once the services brand has traction.
+- **Phase 3 — gated:** **Company C (Defense)** stands up only with clearances/certs/contracts.
+
+The silent holdco can incubate B and C as internal practices before they're independent — so
+work can start immediately without prematurely funding three brand engines.
 
 ---
 
 ## 05 — NAMING
 
-- **Parent:** **Elyoun** — retained, now a *house* quality-mark rather than a product brand. As a
-  parent, "the highest / the standard" is an internal ethos, not a customer-facing boast — which
-  resolves the grandiosity tension with the hype-free voice.
-- **Brand A — Software & AI** _(directions; precision + standard, sayable, un-grandiose)_:
-  **Caliber** · **Datum** · **Keystone** · or endorsed-descriptive **Elyoun Build / Elyoun Labs**.
-- **Brand B — Immersive / RT-3D** _(directions; depth / worlds / real-time)_:
-  **Parallax** · **Strata** · **Vantage**.
-- **Brand C — Defense & Gov** _(directions; sober, secure, mission)_:
-  **Bastion** · **Redoubt** · or plainly **Elyoun Defense** (procurement clarity beats cleverness).
+- **Company A:** **Elyoun** — retained, now scoped to AI & software engineering.
+- **Company B — Real-time 3D / Immersive / Games** _(directions: depth, worlds, real-time,
+  play — expressive, sayable, creative-industry-credible)_: **Parallax** · **Strata** ·
+  **Vantage** · **Holon** · **Lumen-/Volume-** family. (Games audiences reward distinctiveness
+  over restraint.)
+- **Company C — Defense & Gov** _(directions: sober, secure, mission)_: **Bastion** ·
+  **Redoubt** · **Meridian** · or a plain, procurement-legible mark.
+- **Silent holdco** _(not customer-facing; pick something neutral)_: e.g. **[Founders' name]
+  Holdings** or a neutral coined word. It never needs marketing equity.
 
-> These are starting directions. Run a full naming pass (trademark sense, .com, pronunciation,
-> segment fit) before committing any one — see "Next steps."
+> Run a full naming pass (trademark sense, .com, pronunciation, segment fit) before committing B
+> and C. I can do this next.
 
 ---
 
-## 06 — HOW EXISTING ASSETS CASCADE
-
-The existing brand system was built well — it just needs to be *re-leveled* to this house.
+## 06 — HOW EXISTING ASSETS MAP
 
 | Asset | Becomes |
 |---|---|
-| `BRAND_STRATEGY.md` | **House-level** strategy (the standard, the moat, the portfolio logic) + a short positioning brief *per operating brand*. |
-| `BRAND_VOICE.md` | **Shared house voice** (keep almost as-is) with per-brand *tone* flex — Software/AI sharper, Immersive more experiential, Defense more formal. Voice is constant; tone flexes. |
-| `BRAND_MESSAGING.md` | Split: house message ("the standard / the group") + a focused message house *per brand* aimed at its single buyer. No more five-audiences-in-one-doc. |
-| `BRAND_IDENTITY.md` | Elyoun visual system becomes the **endorser/house system**; each brand inherits the core (type, restraint, craft) with one distinguishing variable (e.g. its own accent or motif) so brands are siblings, not clones. Consider moving beyond black+gold for at least one child brand to avoid the luxury-cliché trap. |
-| `.agents/brand-context.md` | Becomes the **house context** + one `*-context.md` per operating brand (same pattern as `competitors/`). Each brand's skills read its own context first. |
+| `BRAND_STRATEGY.md` | **Elyoun (A)** strategy, re-scoped to AI & software engineering. Immersive/games/defense sections move out to B and C briefs. |
+| `BRAND_VOICE.md` | Stays **Elyoun's** voice (keep as-is). B and C author their *own* voices — B more expressive/creative, C more formal/mission-led. Voice is per-company now, not shared. |
+| `BRAND_MESSAGING.md` | Re-scoped to Elyoun's two buyers (founders, enterprise). B and C get their own messaging frameworks. |
+| `BRAND_IDENTITY.md` | Stays Elyoun's (premium dark+gold restraint suits a software/AI firm). B and C get distinct identities — B likely more expressive; C sober/secure. |
+| `.agents/brand-context.md` | Becomes Elyoun's context. B and C each get their own `*-context.md` (same pattern as `competitors/`). |
 
-**Governance — when a division graduates to a brand:** it has (1) a named flagship case study or
-a product in production, (2) a distinct buyer it can name from real interviews, and (3) the
-resources to run its own go-to-market. Until all three, it stays a *practice* under the lead brand.
+Because the companies are independent, there is **no shared house brand system** — only a shared
+*operating* core (talent, tech, capital) inside the silent holdco.
 
 ---
 
 ## 07 — WHAT THIS FIXES (TRACEABLE TO THE CRITIQUE)
 
-- **Focus problem** → each brand serves one buyer; range moves internal.
-- **Name grandiosity** → Elyoun moves up to house level, where aspiration is appropriate.
-- **"All promise, no proof"** → lead with the brand that has product-in-production; others gated on proof; nothing claimed before it's earned (no desperation).
-- **Defense over-claim risk** → defense is explicitly Phase 3, gated on credentials.
-- **Cliché identity risk** → per-brand distinguishing variable; option to break black+gold for a child brand.
+- **Focus** → three companies, three single buyers; no contradictory audiences in one brand.
+- **Name grandiosity** → Elyoun is now a focused software/AI firm, not a five-domain over-claim.
+- **All-promise-no-proof** → each company leads on its own proof; nothing claimed before earned.
+- **Defense over-claim** → Company C is explicitly last and credential-gated.
+- **Audience repulsion** → games and defense brands never contaminate each other.
+- **Cliché identity** → B gets its own expressive identity instead of inheriting black+gold.
 
 ---
 
 ## 08 — NEXT STEPS
 
-1. Confirm which domain holds the **product(s) in production** → fixes the Phase-1 lead brand.
-2. Run a full **naming pass** for the brand(s) being activated now.
-3. Re-level `BRAND_STRATEGY` / `MESSAGING` to house + lead-brand briefs.
-4. Create `competitors/`-style `*-context.md` for the lead brand and run its skill stack.
-
-> Pairs with `BRAND_STRATEGY.md`, `COMPETITIVE_LANDSCAPE.md`, and the brand system docs.
+1. Confirm Elyoun = Company A (AI & software), and which domain holds the product-in-production.
+2. **Name** Company B (and reserve a direction for C + the holdco).
+3. Build Company B's brand system (context → strategy → voice → identity), now including
+   multiplayer game development.
+4. Re-scope Elyoun's existing docs to software/AI only.
 
 ## Sources
 - Improbable (Wikipedia): https://en.wikipedia.org/wiki/Improbable_(company)
