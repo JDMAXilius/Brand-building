@@ -104,11 +104,12 @@ or a neutral founders'-name holding entity if you'd rather keep Elyoun for an op
 
 ## 06 — RECOMMENDED SET (one line)
 
-> **Elyoun Group** (holdco) → **Tessera** (AI & software) · **Holon** (immersive & games) ·
-> **Redoubt** (defense, later).
+> **Elyoun Group** (holdco) → **Lathe** *or* **Marque** (AI & software) · **Holon** (immersive &
+> games) · **Redoubt** (defense, later).
 
-A coherent, focused, collision-vetted set: precise/Tessera, expansive/Holon, sober/Redoubt — three
-distinct voices for three distinct buyers, one standard behind them.
+Revised after diligence (§09): **Tessera was downgraded** — it has a live *software-class* US
+trademark (Tessera Global LLC), a direct conflict for an AI/software company. Company A's lead
+moves to **Lathe** or **Marque** (no conflicts surfaced; verify). Holon and Redoubt hold.
 
 ---
 
@@ -121,6 +122,57 @@ This pass eliminated *same-space* collisions via web search. It does **not** rep
 
 I can shortlist exact-match and variant domains to test, and draft the trademark classes, as the
 next step — you'd run the live availability/TM checks (or point me at a tool that can reach them).
+
+---
+
+## 09 — DILIGENCE FINDINGS (preliminary, search-based)
+
+> **Important — what could NOT be checked here.** This environment's network policy blocks
+> registrars/RDAP (Verisign RDAP returned 403) and the USPTO API, so **authoritative domain
+> availability, WHOIS, and trademark-status checks could not be run.** State LLC registries are
+> per-state and also unreachable. Everything below is inferred from public web search of USPTO
+> records and existing sites — a real preliminary read, but **not** legal clearance.
+
+**Trademark (US, via surfaced USPTO records):**
+
+| Name | Company | TM finding | Read |
+|---|---|---|---|
+| **Tessera** | A | **Live software/app mark** — Tessera Global LLC (mobile apps, social). Also Tessera Therapeutics (biotech), ex-Xperi/Tessera (semis). | ❌ In-class conflict. Avoid for software. |
+| **Lodestar** | A | **Registered for game software** — Edenic Era LLC. | ⚠️ Adjacent-class risk. |
+| **Marque** | A | No software mark surfaced. | ✅ Verify (common word; "marquee" confusion). |
+| **Lathe** | A | No software mark surfaced. | ✅ Verify (distinctive). |
+| **Holon** | B | Marks in healthcare (Holon Health, Holon Solutions), legal (Holon Law), semis (Holon Co), ventures (Holon Ventures) — **none clearly in games/interactive (Class 9/41/42).** | ⚠️ Busy word, but our class looks clearer. Verify Classes 9/41/42. |
+| **Redoubt** | C | Only Redoubt Press LLC (publishing/books); the one defense-ish REDOUBT (Liken Savage) was refused/dead. | ✅ Cleanest. No active defense-class mark. |
+
+**.com domains:** all six are common dictionary words / long-existing terms, so the **exact-match
+.com is almost certainly already registered** for every one. Plan on a variant from the start:
+- Patterns to test: `get<name>.com`, `<name>hq.com`, `use<name>.com`, `<name>labs.com`,
+  `<name>.io` / `.ai` / `.studio` / `.dev`, `<name>group.com`, `try<name>.com`.
+- Redoubt/Holon/Lathe/Marque variants are likely obtainable even if the bare .com is not.
+
+**LLC / entity:** LLC name availability is **per U.S. state** — there is no national check. Decide
+state of formation first (Delaware is standard for a holdco/C-corp; the operating LLCs can be
+Delaware or your home state). Name availability is then checked on that state's Secretary of State
+business-entity search. A federal trademark (USPTO) is what actually protects the brand
+nationally — prioritize that over the LLC string.
+
+**Net read:** **Redoubt** is clean. **Holon** is workable pending a Class 9/41/42 check.
+**Company A needs Lathe/Marque** (Tessera and Lodestar both carry software-class conflicts).
+
+---
+
+## 10 — AUTHORITATIVE CHECKS TO RUN (off this environment)
+
+1. **Trademark:** USPTO `tmsearch.uspto.gov` — search each name in the relevant classes
+   (software: 9/42; entertainment/games: 41; defense services: 42/45). Also a clearance search by
+   a TM attorney before filing. International: WIPO Global Brand DB.
+2. **Domain:** any registrar (Namecheap/Cloudflare/Google) or `whois`/RDAP — check exact .com +
+   the variant patterns above.
+3. **LLC/entity:** your state's Secretary of State business-entity search (+ Delaware if forming
+   the holdco there).
+
+> If you give me access to a tool/MCP that can reach registrars or USPTO (or run the checks and
+> paste results), I'll fold authoritative status back into this doc.
 
 ---
 
