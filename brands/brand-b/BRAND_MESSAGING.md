@@ -16,7 +16,7 @@ The strategic anchor (not a tagline). Everything below expresses it.
 
 ## 02 — VALUE PROPOSITION
 
-Brand B is one studio that combines attraction-grade immersive craft, AAA multiplayer/real-time engineering, and the discipline to deliver — instead of forcing buyers to stitch together a creative studio, a co-dev shop, and a backend specialist who each own half. It treats an experience or a multiplayer game as a system that must perform, scale, and survive real users, and it owns the hard parts end to end.
+Brand B is one company that combines attraction-grade immersive craft, AAA multiplayer/real-time engineering, and the discipline to deliver — instead of forcing buyers to stitch together a creative studio, a co-dev shop, and a backend specialist who each own half. It treats an experience or a multiplayer game as a system that must perform, scale, and survive real users, and it owns the hard parts end to end.
 
 ---
 
@@ -37,7 +37,7 @@ Brand B is one studio that combines attraction-grade immersive craft, AAA multip
 > Worlds, built like systems.
 
 **Level 2 — Supporting Statement**
-> Brand B engineers immersive experiences and multiplayer games that feel alive and hold up under real users — craft and systems in one studio.
+> Brand B engineers immersive experiences and multiplayer games that feel alive and hold up under real users — craft and systems in one company.
 
 **Level 3 — Key Messages**
 
@@ -57,11 +57,11 @@ A demo that breaks on the floor isn't a deliverable. Brand B ships on time and h
 Fidelity and play on one side, reliability and performance on the other — Brand B refuses to trade either away.
 *Proof:* Reel + the metrics behind it.
 
-**Level 4 — Proof Point Bank** *(reel-led; only what's real)*
-- Shipped immersive/real-time-3D builds and multiplayer systems (showreel + live builds).
+**Level 4 — How We Demonstrate Capability** *(the work, not social proof)*
+- The reel and live builds — the real-time-3D worlds and multiplayer systems the company makes.
 - Performance/scale specifics (fps, concurrency, latency) where demonstrable.
-- Engine and netcode depth; senior bench.
-- *(Add as earned: named projects, player numbers, attraction footfall.)*
+- Engine and netcode depth; a senior, multi-disciplinary bench.
+- **No** client logos, testimonials, reviews, or "trusted by" lists — the work speaks for itself.
 
 ---
 
@@ -85,7 +85,7 @@ Fidelity and play on one side, reliability and performance on the other — Bran
 |---|---|---|---|
 | Website | Cinematic, reel-first | Vivid, confident | Short |
 | Social | Behind-the-build, technical-creative | Energetic, exact | Short–medium |
-| Sales / portfolio | Portfolio + performance metrics | Proof-led | Medium |
+| Sales / portfolio | Portfolio + performance metrics | Work-led | Medium |
 | Conference / expo | Live demos | Momentum | Very short |
 
 *Always show the work.*
@@ -97,5 +97,5 @@ Fidelity and play on one side, reliability and performance on the other — Bran
 - **Claims a reel or build can't back** — performance, concurrency, or fidelity we can't demonstrate.
 - **Empty superlatives:** "next-level," "AAA-quality" (as a boast), "revolutionary," "magical."
 - **"Metaverse" as filler.**
-- **Fabricated client lists** — the reel and shipped builds are the proof until names are earned.
+- **Client logos, testimonials, reviews, or "trusted by" lists** — never. The reel and shipped builds speak; name-dropping reads as insecurity.
 - **Spectacle without systems** (to attractions) or **systems without experience** (to studios) — Brand B's whole claim is both.

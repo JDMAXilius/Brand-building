@@ -2,7 +2,7 @@
 
 > *Real-time 3D, Immersive & Games (name TBD).* Derives from `/Users/juan/Downloads/brand-b.md`.
 > Part of the silent **Elyoun Group**. Brand B's voice is more expressive than the software brand —
-> vivid, but always backed by proof. Voice stays constant; tone flexes by channel.
+> vivid, but always backed by the work. Voice stays constant; tone flexes by channel.
 
 ---
 
@@ -17,7 +17,7 @@ Brand B sounds like a senior creative-technologist who has actually shipped worl
 ## 02 — TONE DIMENSIONS
 
 **Formality** — Casual ←————●———→ Formal
-- Mid — polished but human, creative-industry-native. Comfortable in a studio and a boardroom.
+- Mid — polished but human, creative-industry-native. Comfortable in a creative room and a boardroom.
 - *Example:* "Here's the world. Here's the frame budget that keeps it at 60."
 
 **Energy** — Calm ←———————●—→ Energetic
@@ -72,7 +72,7 @@ Brand B sounds like a senior creative-technologist who has actually shipped worl
 
 ## 05 — WRITING STYLE RULES
 
-- **Lead with the experience, follow with the proof.** Scene first, then the metric.
+- **Lead with the experience, follow with the build.** Scene first, then the metric.
 - **Specifics over adjectives** — numbers, engines, player counts, latency.
 - **Sentence length:** Short, punchy lines welcome; vary for momentum. Em-dashes fine.
 - **Punctuation:** Exclamation marks rare and earned — let the work be loud, not the copy.

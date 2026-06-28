@@ -109,7 +109,7 @@ A deep cinematic dark lit by a controlled spectral accent — color used as *rea
 
 **Naming brief** *(name TBD — see `../NAMING.md`)*: expressive, world/depth/play-evoking, creative-industry-credible, distinctive, sayable. Current lead: **Holon** (a whole that is part of a larger whole — worlds within worlds). Runner-up: **Threshold**. (Phosphor / Parallax dropped — existing studios.)
 
-**Phase-2 product line & graduation:** productize engine plugins/SDKs/tools (Unreal/Unity) as recurring products once the services brand has traction — the "ships its own products" flywheel for real-time-3D. Brand B becomes a fully independent company once it has a flagship project **and** a named buyer; until then it incubates inside the group. The reel and shipped builds are the proof — no fabricated client lists.
+**Phase-2 product line:** productize engine plugins/SDKs/tools (Unreal/Unity) as recurring products — the "ships its own products" flywheel for real-time-3D. Services-first; add a tool when there's a real one worth shipping. **Posture:** Brand B presents as an established company of senior experts and demonstrates through the work — the reel and shipped builds — never client logos, testimonials, or "trusted by" lists.
 
 ---
 

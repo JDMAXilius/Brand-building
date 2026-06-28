@@ -11,7 +11,7 @@
 
 > *"Worlds and games, built like engineered systems."*
 
-Brand B is a real-time-3D studio that builds immersive experiences, simulations, and games — including multiplayer — with the engineering rigor most experiential studios lack. It spans attraction- and theme-park-grade immersive craft, AAA-grade game development with multiplayer, netcode, and live-service engineering, and the AI/software discipline that makes any of it ship and stay up.
+Brand B is a real-time-3D company that builds immersive experiences, simulations, and games — including multiplayer — with the engineering rigor most experiential studios lack. It spans attraction- and theme-park-grade immersive craft, AAA-grade game development with multiplayer, netcode, and live-service engineering, and the AI/software discipline that makes any of it ship and stay up.
 
 The premise is simple and unusual in this field: an immersive experience or a multiplayer game is a *system*. It has to perform, scale, and survive real users on opening day — not just look good in a sizzle reel. So Brand B builds it like one. It dreams the world and makes it run.
 
@@ -19,7 +19,7 @@ The premise is simple and unusual in this field: an immersive experience or a mu
 
 ## 02 — VISION
 
-*To be the studio called when an experience has to be both unforgettable and unbreakable — immersive craft held to real engineering standards.*
+*To be the company called when an experience has to be both unforgettable and unbreakable — immersive craft held to real engineering standards.*
 
 **Pillars:** Immersive · Engineered · Multiplayer · Alive
 
@@ -56,13 +56,13 @@ An experience that breaks on the floor isn't an experience. Shipping — on time
 
 ## 05 — BRAND GOALS
 
-**Own the fusion position:** Be known for immersive craft *and* systems engineering in one studio — the seam rivals can't cover.
+**Own the fusion position:** Be known for immersive craft *and* systems engineering in one company — the seam rivals can't cover.
 
-**Land two flagships:** A flagship attraction/experience and a flagship multiplayer/game co-dev, shipped as reference reels.
+**Land two flagships:** A flagship attraction/experience and a flagship multiplayer/game co-dev that showcase the company's range.
 
-**Build the bench:** Assemble a senior multiplayer/real-time-3D engineering bench that rivals the specialists.
+**Build the bench:** Assemble a senior multiplayer/real-time-3D engineering bench that out-engineers the specialists.
 
-**Prove it in production:** Hit and publish real performance/scale benchmarks — fps, concurrency, latency — from shipped work.
+**Show it in production:** Hit and publish real performance/scale benchmarks — fps, concurrency, latency — from shipped work.
 
 **Launch the product line (Phase 2):** Productize engine plugins/SDKs/tools (Unreal/Unity) as recurring products once the services brand has traction.
 
@@ -77,7 +77,7 @@ Brand B sells to people who need spectacle that also runs — buyers burned by d
 | **Buyer titles** | Experience / Creative Director (attractions, LBE); Operations lead; Game-studio CTO / Technical Director; Executive Producer; Publisher technical lead |
 | **Sectors** | Theme parks & attractions, location-based entertainment, game studios & publishers |
 | **Engagement** | Flagship build / co-development partnerships (to confirm) |
-| **Buying motion** | Reel- and proof-led; creative + technical stakeholders |
+| **Buying motion** | Reel- and work-led; creative + technical stakeholders |
 | **What they buy** | Awe that holds up — craft plus reliability under real load |
 
 ### Personas
@@ -133,7 +133,7 @@ It paints the scene, then backs it with the number — engine, frame budget, pla
 **Companion Group (senior multiplayer / backend)**
 - **Strengths:** Premium multiplayer/backend engineering — the specialist to beat on systems.
 - **Weaknesses:** Owns the backend, not the experience or immersive craft.
-- **How Brand B differs:** Multiplayer-grade engineering *plus* the experience and craft, in one studio.
+- **How Brand B differs:** Multiplayer-grade engineering *plus* the experience and craft, in one company.
 
 **Devoted / Pingle (co-dev capacity)**
 - **Strengths:** Co-development capacity, engine familiarity.
@@ -153,7 +153,7 @@ It paints the scene, then backs it with the number — engine, frame budget, pla
 The field splits three ways. Immersive studios bring spectacle but break under load and lack AI/security rigor. Game outsourcers bring capacity but not partnership or strategy. Multiplayer specialists own the backend but not the experience. Buyers who need all of it — AI inside immersive, games-quality realism inside training, consumer polish on systems that must not fail — are left integrating three vendors and carrying the risk. Brand B is built for that fusion, held to one standard: it ships, it scales, it's alive.
 
 **Positioning Statement**
-*Brand B is the real-time-3D studio that builds immersive experiences and multiplayer games like engineered systems — one partner combining attraction-grade craft, AAA multiplayer engineering, and the rigor to ship and scale.*
+*Brand B is the real-time-3D company that builds immersive experiences and multiplayer games like engineered systems — one partner combining attraction-grade craft, AAA multiplayer engineering, and the rigor to ship and scale.*
 
 **Positioning Map**
 - **X-axis:** pure creative/experiential craft ←→ deep software/multiplayer engineering

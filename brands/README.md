@@ -1,26 +1,30 @@
-# Elyoun Group — Operating Company Brand Books
+# Elyoun Group — Operating Company Brands
 
 Three independent companies under the silent Elyoun Group holding entity. Names TBD
 (see `../NAMING.md`); referred to here as Brand A / B / C. Architecture: `../BRAND_ARCHITECTURE.md`.
 
-Each file below is the **complete, single-source brand definition** for that company — strategy,
-audience, positioning, personality, voice, messaging, and visual identity.
+**Canonical structure: one folder per company** (`brand-a/`, `brand-b/`, `brand-c/`), each with a
+full system — `BRAND_STRATEGY.md`, `BRAND_VOICE.md`, `BRAND_IDENTITY.md`, `BRAND_MESSAGING.md`,
+and `.agents/brand-context.md` (the source-of-truth each brand's skills read first).
 
-| Brand | Domain | Buyers | Status | Brand book |
+| Brand | Domain | Buyers | System | Posture pass |
 |---|---|---|---|---|
-| **Brand A** | AI & software engineering (ships own products) | Founders, enterprise | Established firm | [`brand-a.md`](brand-a.md) |
-| **Brand B** | Real-time 3D, immersive & games (incl. multiplayer) | Theme parks, game studios | Established studio | [`brand-b.md`](brand-b.md) |
-| **Brand C** | Defense & government (secure sim, mission software) | Defense/gov | Credential-gated (defense) | [`brand-c.md`](brand-c.md) |
+| **Brand A** | AI & software engineering (ships own products) | Founders, enterprise | [`brand-a/`](brand-a/) | ⏳ pending |
+| **Brand B** | Real-time 3D, immersive & games (incl. multiplayer) | Theme parks, game studios | [`brand-b/`](brand-b/) | ✅ done |
+| **Brand C** | Defense & government (secure sim, mission software) | Defense/gov | [`brand-c/`](brand-c/) | ⏳ pending |
 
-> **Posture (all three):** each speaks as an established company of senior experts — never a newcomer
-> or a single person, and never leaning on client logos / reviews / "trusted by" to justify itself.
-> The work speaks; name-dropping reads as insecurity. (Brand C's credentials are procurement
-> requirements, not social proof.)
+> **Posture (all three):** each speaks as an **established company of senior experts** — never a
+> newcomer, never a single person, and never self-labeled as a "studio." Capability is shown
+> **through the work**, never through client logos / testimonials / reviews / "trusted by" lists —
+> name-dropping reads as insecurity. (Brand C's certifications/clearances are *procurement
+> requirements*, not social proof.)
 
 **Distinct by design:**
 - **A** — premium restraint: obsidian + gold, high-contrast serif; calm, precise voice (inherits Elyoun).
 - **B** — cinematic & vivid: deep indigo + real-time spectral light; energetic, world-building voice.
 - **C** — sober & institutional: graphite/steel-navy + muted accent; formal, mission-led voice.
 
-Connected only by shared ownership, talent, and a common elite-engineering core (invisible to
-customers). **Next:** lock names → execute logos/design systems → build channel assets per brand.
+**Status:** Brand B's folder reflects the latest direction (established company, no "studio" label,
+work-not-client-proof). Brand A & C folders still need the same posture pass; the older single-file
+`brand-a.md` / `brand-c.md` remain as interim references until consolidated. Brand B's single file
+was removed (folder is canonical).

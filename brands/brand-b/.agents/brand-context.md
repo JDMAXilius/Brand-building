@@ -6,9 +6,9 @@
 
 ## Brand
 - **Name:** Brand B (working name; final TBD — lead: *Holon*, runner-up *Threshold*)
-- **Category:** Real-time-3D studio — immersive experiences, simulations, and games (including multiplayer)
+- **Category:** Real-time-3D company — immersive experiences, simulations, and games (including multiplayer)
 - **Description:** Brand B builds immersive experiences, simulations, and games — including multiplayer — with the engineering rigor most experiential studios lack. It spans attraction/theme-park-grade immersive craft, AAA-grade game development with multiplayer/netcode/live-service engineering, and the AI/software discipline that makes any of it ship and stay up. The premise: an immersive experience or a multiplayer game is a *system* — it must perform, scale, and survive real users on opening day — so Brand B builds it like one.
-- **Stage:** Incubating inside the Elyoun Group; building flagship reels and a senior real-time-3D/multiplayer bench **(to confirm)**
+- **Stage:** An established company within the Elyoun Group, with a senior real-time-3D/multiplayer bench **(to confirm)**
 - **Website:** TBD **(to confirm)**
 - **Tagline:** *Worlds, built like systems.*
 
@@ -23,8 +23,8 @@
 ---
 
 ## Positioning
-- **Differentiation:** Immersive craft *and* systems engineering in one studio. Brand B treats an experience or a multiplayer game as a system that must perform, scale, and survive real users — and owns the hard parts (netcode, server fleets, live-service, performance) end to end, not just the visuals.
-- **Positioning Statement:** Brand B is the real-time-3D studio that builds immersive experiences and multiplayer games like engineered systems — one partner combining attraction-grade craft, AAA multiplayer engineering, and the rigor to make it ship and scale.
+- **Differentiation:** Immersive craft *and* systems engineering in one company. Brand B treats an experience or a multiplayer game as a system that must perform, scale, and survive real users — and owns the hard parts (netcode, server fleets, live-service, performance) end to end, not just the visuals.
+- **Positioning Statement:** Brand B is the real-time-3D company that builds immersive experiences and multiplayer games like engineered systems — one partner combining attraction-grade craft, AAA multiplayer engineering, and the rigor to make it ship and scale.
 - **Competitors:** Enludio (immersive/RT-3D craft; light on AI/software rigor & security); Side / PTW (scale game services, execution-led); Companion Group (senior multiplayer/backend — the premium specialist to beat on engineering); Devoted / Pingle (co-dev capacity); Theory / Talon (Orlando immersive). *(See `../COMPETITIVE_LANDSCAPE.md` §1–2.)*
 - **Market Position:** Premium build partner — craft-led and systems-deep. Competes on the fusion (craft + engineering), not on price or pure capacity.
 
@@ -56,16 +56,16 @@
 4. **Partnership** — embed with the client's team; own the hard parts.
 5. **Ship it** — an experience that breaks on the floor isn't an experience.
 
-**Vision:** To be the studio called when an experience has to be both unforgettable *and* unbreakable — immersive craft held to real engineering standards.
+**Vision:** To be the company called when an experience has to be both unforgettable *and* unbreakable — immersive craft held to real engineering standards.
 
 **Mission:** Design and engineer real-time-3D worlds, simulations, and multiplayer games that ship on time, scale under load, and feel alive — for studios and operators who can't accept a tech demo.
 
 ---
 
 ## Goals
-- **Primary Goal:** Own the position of "immersive craft *and* systems engineering in one studio."
+- **Primary Goal:** Own the position of "immersive craft *and* systems engineering in one company."
 - **Key Metrics (to confirm):**
-  - A flagship attraction/experience and a flagship multiplayer/game co-dev shipped as reference reels
+  - Flagship immersive and multiplayer work that showcases the company's range
   - Performance/scale benchmarks met in production (fps, concurrency, latency)
-  - Senior multiplayer/real-time-3D bench built to rival the specialists
+  - A senior multiplayer/real-time-3D bench that out-engineers the specialists
   - Phase-2: a productized engine plugin/tooling line (the "ships its own products" flywheel for RT-3D)
