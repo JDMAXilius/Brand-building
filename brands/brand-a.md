@@ -161,11 +161,11 @@ a founder and an enterprise security review alike.
 - **L3 key messages:** (1) *We build like owners, not vendors.* (2) *Production-grade, or it doesn't
   ship.* (3) *Senior people, owned outcomes.* (4) *Applied AI that survives security review.*
 
-### 5.5 Proof bank *(use only what's true; no filler)*
-- Operates its own software product(s) in production — the core differentiator; show it.
-- Security-by-default architecture.
-- Senior-only staffing; no junior hand-offs.
-- *(Add as earned: named case studies, certifications, measurable outcomes.)*
+### 5.5 How we demonstrate capability *(the work, not social proof)*
+- The software product(s) the company builds and runs in production — show the product.
+- Security-by-default architecture and the engineering itself.
+- A senior, expert team; no junior hand-offs.
+- **No** client logos, testimonials, reviews, or "trusted by" lists — the work speaks for itself.
 
 ### 5.6 Audience-specific
 - **Founders:** lead with "builders, not billers"; avoid heavy enterprise/process language.
@@ -218,7 +218,9 @@ Precise, engineering-credible, premium, un-grandiose, sayable, .com-plausible. C
 **Lathe** / **Marque** (Tessera dropped — software-class TM conflict). Avoid AI clichés and
 grandiosity.
 
-## PART 8 — PROOF POSTURE (no desperation)
-Lead with the **product already in production** — show it, don't claim around it. State capability
-plainly; let the work carry it. No aspirational certs, invented metrics, or "trusted by" filler.
-Add named case studies as they land; until then, the running product is enough.
+## PART 8 — POSTURE (established expert firm)
+Brand A speaks as a capable company of senior experts — not a newcomer proving itself, and never a
+single freelancer ("we," the team, the firm). Show the product it builds and runs in production —
+the work is the demonstration. State capability plainly and let it stand. **No** client logos,
+testimonials, reviews, "trusted by" lists, invented metrics, or aspirational certs — modern buyers
+judge the work, and name-dropping reads as insecurity.

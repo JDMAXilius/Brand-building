@@ -153,11 +153,15 @@ can certify, from one accountable vendor.
 - **L3:** (1) *Realism people can train on.* (2) *Security your program can certify.* (3) *One
   accountable partner, built to span both.* (4) *Process rigor matched to genuine craft.*
 
-### 5.5 Proof bank *(only when true — see activation gate)*
+### 5.5 What the work requires *(procurement reality, not marketing proof)*
+> Defense is the one exception to the group-wide "don't lean on proof" rule — **not** because Brand
+> C name-drops clients (it never does), but because certifications, clearances, and past performance
+> are *scored bid requirements* in government procurement. These are credentials to operate, not
+> testimonials to impress with.
 - Security posture / certifications / accreditations actually held.
-- Referenceable program(s) and cleared staff.
+- Cleared staff, compliant infrastructure, and referenceable program performance (procurement-mandated).
 - Immersive/AI/simulation capability demonstrable in a compliant context.
-- *(Nothing in this bank is published until it is demonstrably true.)*
+- No commercial-style logos, reviews, or "trusted by" marketing — the work and the credentials stand.
 
 ### 5.6 By channel
 Capability statements and white papers (formal). Program references and demonstrations (compliant
@@ -209,8 +213,15 @@ Sober, secure, mission-led, procurement-legible, no games vibe. Current lead: **
 fortification; clean in the defense space). Runner-up: **Warden**. (Bulwark/Aegis/Sentinel dropped
 — taken/overused in defense.)
 
-## PART 8 — ACTIVATION GATE (critical — read before any public use)
-This is the brand where over-claiming is most fatal. **Go public only when ALL THREE exist:**
+## PART 8 — POSTURE & ACTIVATION GATE
+
+**Posture — an established, cleared, expert organization.** Brand C speaks as a capable defense
+partner with senior, multi-disciplinary teams — never a newcomer, never a single person. Authority
+comes from rigor, credentials, and the work; it does not name-drop or lean on commercial-style
+social proof.
+
+**Activation gate (critical — read before any public use).** This is the brand where over-claiming
+is most fatal. **Go public only when ALL THREE exist:**
 1. the security posture / certifications / clearances the work requires,
 2. a real contract or referenceable program,
 3. cleared staff and compliant infrastructure.

@@ -13,8 +13,10 @@
 ### 1.1 Essence
 > *"Worlds and games, built like engineered systems."*
 
-Brand B is a real-time-3D studio that builds **immersive experiences, simulations, and games —
-including multiplayer** — with the engineering rigor most experiential studios lack. It spans
+Brand B is a real-time-3D studio — a full company of senior, multi-disciplinary experts (engine,
+rendering, netcode, AI, and experience design) who have built worlds, shipped multiplayer, and run
+live experiences. It builds **immersive experiences, simulations, and games — including
+multiplayer** — with the engineering rigor most experiential studios lack. It spans
 attraction/theme-park-grade immersive craft, AAA-grade game development with
 **multiplayer/netcode/live-service** engineering, and the AI/software discipline that makes any of
 it ship and stay up. The premise: an immersive experience or a multiplayer game is a *system* — it
@@ -37,8 +39,8 @@ scale under load, and feel alive — for studios and operators who can't accept 
 
 ### 1.5 Goals
 - Own the position of "immersive craft *and* systems engineering in one studio."
-- Land a flagship attraction/experience and a flagship multiplayer/game co-dev as reference reels.
-- Build a senior multiplayer/real-time-3D bench that rivals the specialists.
+- Produce flagship immersive and multiplayer work that showcases the studio's range.
+- Be recognized as a senior multiplayer/real-time-3D studio that out-engineers the specialists.
 - (Phase 2) launch a productized plugin/tooling line.
 
 ---
@@ -157,11 +159,11 @@ a backend specialist who each own half.
 - **L3:** (1) *Experiences built like systems.* (2) *Multiplayer we own, end to end.* (3) *It ships
   and it scales.* (4) *Craft you can feel, engineering you can trust.*
 
-### 5.5 Proof bank *(reel-led; only what's real)*
-- Shipped immersive/real-time-3D builds and multiplayer systems (showreel + live builds).
-- Performance/scale specifics (fps, concurrency, latency) where demonstrable.
-- Engine/netcode depth; senior bench.
-- *(Add as earned: named projects, player numbers, attraction footfall.)*
+### 5.5 How we demonstrate capability *(the work, not social proof)*
+- The reel and live builds — the real-time-3D worlds and multiplayer systems the studio makes.
+- Technical specifics that prove depth: engines, frame budgets, concurrency, latency, scale.
+- The senior, multi-disciplinary bench and the breadth of what it can build.
+- **No** client logos, testimonials, reviews, or "trusted by" lists — the work speaks for itself.
 
 ### 5.6 Audience-specific
 - **Theme parks / attractions:** lead with awe + reliability ("flawless on the floor every day").
@@ -220,9 +222,17 @@ Expressive, world/depth/play-evoking, creative-industry-credible, distinctive, s
 lead: **Holon** (a whole that is part of a larger whole — worlds within worlds). Runner-up:
 **Threshold**. (Phosphor/Parallax dropped — existing studios.)
 
-## PART 8 — PRODUCT LINE & GRADUATION
-- **Phase 2 product line:** productize engine plugins/SDKs/tools (Unreal/Unity) as recurring
-  products once the services brand has traction — the "ships its own products" flywheel for RT-3D.
-- **Graduation:** Brand B becomes a full independent company once it has a flagship project **and**
-  a named buyer; until then it incubates inside the group. Reel and shipped builds are the proof —
-  no fabricated client lists.
+## PART 8 — POSTURE & PRODUCT LINE
+
+**Posture — an established expert studio.** Brand B speaks as what it is: a full studio of senior,
+multi-disciplinary experts who build worlds, ship multiplayer, and run live experiences. It carries
+the authority of a capable company — never the tone of a newcomer asking to be trusted, and never
+the voice of a single freelancer. "We," the studio, the teams.
+
+**Demonstrate through the work, not social proof.** Capability is shown by the craft itself — the
+reel, the build, the technical depth — not by client logos, testimonials, reviews, or "trusted by"
+lists. Modern buyers judge the work; name-dropping reads as insecurity. Let the work stand.
+
+**Phase 2 product line — plugins/tooling.** Productize engine plugins/SDKs/tools (Unreal/Unity) as
+recurring products — the "ships its own products" flywheel for real-time 3D. Services-first; add a
+tool when there's a real one worth shipping.
