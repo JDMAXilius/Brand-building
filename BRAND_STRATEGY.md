@@ -169,6 +169,18 @@ The voice territory is "the expert who doesn't need to impress you." Elyoun writ
 - **Weaknesses:** Execution arms, not strategic/AI partners; rarely cross into enterprise, XR-sim, or defense.
 - **How Elyoun is different:** Elyoun partners across game, XR, AI, and enterprise — a strategic builder, not a production vendor.
 
+### Named rivals by segment (2026 research)
+
+> Full profiles, brand-strategy teardowns, and a recreation playbook in `COMPETITIVE_LANDSCAPE.md`.
+
+- **Immersive / XR / theme parks & sim:** Enludio, Talon Simulations, Theory Studios, Another Reality Studio, EuphoriaXR — *an Orlando consortium already bridging theme-park ↔ defense-sim; Elyoun's closest threat.*
+- **Game studios:** Side (ex-PTW), Companion Group, Devoted Studios, Pingle Studio, StudioKrew.
+- **Defense / gov sim & secure software:** GovCIO, Raytheon (M&S), Calian, HAVELSAN, XR Training / Operator XR.
+- **Premium consultancy that ships products:** Thoughtworks, Impekable, ELEKS, DataRoot Labs, Xcelacore.
+- **Founders / startups (AI product studios):** LeewayHertz, BUILDFOUND, Forum Ventures AI Studio, Shape, Startup House.
+
+**Closest direct threat:** the **Orlando immersive consortium (Enludio + Talon + Theory + XR Training)** — already executing the immersive+defense overlap Elyoun claims. Elyoun's wedge: AI/software-engineering rigor, security-by-default, and the consult-and-own-products model none of them combine.
+
 ---
 
 ## 10 — POSITIONING
