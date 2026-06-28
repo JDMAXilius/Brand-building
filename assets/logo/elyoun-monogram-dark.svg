@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Elyoun E monogram">
+  <rect width="600" height="600" fill="#0A0A0C"/>
+  <rect x="60" y="60" width="480" height="480" fill="none" stroke="#C8A96A" stroke-width="6"/>
+  <text x="300" y="300" text-anchor="middle" dominant-baseline="central"
+        font-family="'Playfair Display','Didot','Georgia',serif" font-weight="600" font-size="360"
+        fill="#E3C98C">E</text>
+</svg>
