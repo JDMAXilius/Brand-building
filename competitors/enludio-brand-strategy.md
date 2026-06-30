@@ -13,10 +13,16 @@
 > 4. `/copywriting` → tagline candidates (section 11).
 > 5. Verify against real copy; mark inferences; iterate.
 
+> **Verified update (2026-06-30):** a walkthrough of the live enludio.com confirmed the hero
+> framing, offer structure, and visual system. Verified items are noted inline as _(verified)_;
+> full site capture is in `enludio-context.md` → "Site & Offer". The earlier "design-led
+> engineering" positioning line was an inference the live site does **not** lead with — it leads
+> with **"The Experience Technology Company"** and **"Pushing boundaries without losing our humanity."**
+
 ---
 
 ## 01 — WHAT IS ENLUDIO?
-> *"Design-led engineering for the real-time-3D world."* _(inferred positioning line)_
+> *"The Experience Technology Company — pushing boundaries without losing our humanity."* _(verified hero copy)_
 
 Enludio is an Orlando spatial-computing studio that turns complex physical environments into immersive, interactive experiences in real-time 3D. Founded in 2024 by veterans of Unity's former Orlando division, it sits at the intersection of simulation & training, games, aerospace, and theme parks — domains that all demand high-fidelity visuals running at performance. Where most studios pick one lane, Enludio's founding bet is that the same spatial-computing craft serves a theme-park attraction, a defense trainer, and an industrial visualization alike.
 
@@ -51,11 +57,11 @@ Enludio is an Orlando spatial-computing studio that turns complex physical envir
 **Axis:** Specialist · Technical · Creative · Premium-craft.
 Enludio carries itself as a crew of veteran builders — design-led, technically deep, and understated. It lets the work (and the pedigree) speak; low on hype, high on craft signals. _(inferred)_
 
-## 08 — VOICE
-*Speaks as veteran builders of immersive systems — design-led and technically precise.* _(inferred)_
-- **Do:** lead with craft and real-time-3D specifics; show pedigree; stay understated.
-- **Don't:** overuse hype/buzzwords; over-claim scale; bury the technical proof.
-- **Qualities:** Technical · Design-led · Credible · Understated.
+## 08 — VOICE _(refined with verified copy)_
+*A gamer/mission register ("Our Loadout," "Mission Outcomes") layered over a human-centered promise ("without losing our humanity," "deeply human").* Confident, techno, systems-literate — warmer and more brand-forward than "understated."
+- **Do:** name outcomes and capabilities; use the mission/loadout framing; keep the human throughline.
+- **Don't:** sound coldly technical-only — the humanity line is the differentiator they lean on.
+- **Qualities:** Techno · Outcome-led · Human-centered · Confident. _(verified register)_
 
 ## 09 — COMPETITORS (from Enludio's view) _(inferred)_
 - **Theory Studios** — visual-craft peer & ecosystem partner.
@@ -63,21 +69,22 @@ Enludio carries itself as a crew of veteran builders — design-led, technically
 - **Elyoun** — the cross-domain threat that adds AI/software-engineering rigor + security + owned products.
 
 ## 10 — POSITIONING
-**Statement:** *Enludio is the spatial-computing specialist that turns complex environments into immersive, interactive real-time-3D experiences — built by veterans of sim, games, aerospace, and theme parks.* _(inferred)_
-**Strengths:** immersive craft, Unity pedigree, ecosystem (theme-park ↔ defense bridge).
-**Gaps Elyoun exploits:** AI/software-engineering rigor, security-by-default, consult-and-own-products breadth.
+**Statement:** *Enludio is "The Experience Technology Company" — building immersive, interactive real-time experiences and systems for real-world interaction, "without losing our humanity."* _(verified hero framing)_ Offer is split into **Solutions ("Mission Outcomes": Digital Twins · Spatial Experiences · Interactive Entertainment)** and **Services ("Our Loadout": Envisioning · Accelerate Solutions · 3D Content Creation · Development Support Bundles).**
+**Strengths:** immersive craft, Unity pedigree, ecosystem (theme-park ↔ defense bridge); a named team + partners as public credibility.
+**Gaps Brand B exploits:** AI/software-engineering rigor, multiplayer/netcode + live-service systems depth, and the "built like systems / ships, scales, stays alive" reliability story Enludio doesn't make.
 
-## 11 — TAGLINE CANDIDATES _(inferred)_
-- "Design-led engineering." (closest to observed copy)
-- "Complex environments, made immersive."
-- "Real-time 3D, built by veterans."
+## 11 — TAGLINES _(verified from live site)_
+- **"Pushing boundaries without losing our humanity."** (hero sub-line)
+- **"The Experience Technology Company."** (hero positioning headline)
+- Section lines: "Mission Outcomes — purpose-built for real-world interaction"; "Our Loadout — built for collaborative development"; "Let's build what's next."
 
 ---
 
-## What Elyoun learns from this reconstruction
-1. **Enludio owns the immersive-craft + theme-park/defense story** — but says little about AI/software-engineering rigor, security, or owning products. That silence is Elyoun's wedge.
-2. **Beat it on "experiences built like systems"** — production-grade, secure, AI-capable, single-partner across more domains.
-3. **The Orlando ecosystem is the real unit of competition**, not Enludio alone — position Elyoun against the consortium's *collective* gap (no one combines craft + rigor + security + products).
+## What Elyoun / Brand B learns from this reconstruction
+1. **Enludio owns the immersive-craft + theme-park/defense story** — but says little about AI/software-engineering rigor, security, or owning products. That silence is the wedge.
+2. **Beat it on "experiences built like systems"** — production-grade, multiplayer/netcode + live-service depth, single-partner reliability ("ships, scales, stays alive").
+3. **The Orlando ecosystem is the real unit of competition**, not Enludio alone — position against the consortium's *collective* gap (no one combines craft + rigor + systems + products).
+4. **Verified competitive tells (2026-06-30):** Enludio leans into a **purple→magenta gradient** (the same spectral family) — Brand B (Holon) differentiates by leading with **cyan as the single accent** and using the spectrum as *restrained motivated light*, not a flood. Enludio shows a **team page**, a **partners** section, and a **contact form** as credibility (no client logos/case studies were shown). Their **careers board is empty ("no open roles")** — a small "looks inactive" tell to avoid. Their **gamer/mission voice** ("loadout/mission outcomes") is a tonal choice Brand B can counter with an engineering-led ("built like systems") register.
 
 > Repeat this exact file structure for `companion-group`, `side`, `govcio`, `thoughtworks`
 > using their context files to complete the Top-5 reconstructions.
